@@ -1,1 +1,0 @@
-This site serves as a hub of information about myself and my academic/professional projects.
