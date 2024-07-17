@@ -2,7 +2,24 @@ body {
     background-color: #2f2f2f;
 }
 
-h1 {
+h1, h2 {
     color: #5e5efe;
     text-align: center;
 }
+
+li {
+    margin-top: 100px;
+    color: #5e5efe;
+}
+
+a {
+    color: #5e5efe;
+}
+
+a:hover {
+    color:#a35efe;
+}
+
+/* a:visited {
+    color: blue;
+} */
