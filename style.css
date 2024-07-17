@@ -17,21 +17,26 @@ p {
 
 li {
     margin-top: 100px;
-    color: #5e5efe;
+    color: #a1a1ff;
     font-size: 18pt;
 }
 
 a {
-    color: #5e5efe;
+    color: #a35efe;
 }
 
 a:hover {
-    color:#a35efe;
+    color:#7844bc;
 }
 
 iframe {
     display: block;
     margin: 0 auto;
+}
+
+.homeLink {
+    text-align: center; 
+    margin: 20px
 }
 
 /* a:visited {
