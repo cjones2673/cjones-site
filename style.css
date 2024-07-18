@@ -40,12 +40,11 @@ iframe {
 
 .linkItem {
     text-align: center;
-    margin-top: 5%;
     max-width: 50%;
     font-size: 18pt;
 }
 
 .linkImg {
-    max-width: 50%; 
+    max-width: 75%; 
     outline: auto #5e5efe
 } 
