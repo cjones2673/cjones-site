@@ -15,24 +15,6 @@ p {
     margin: 20px;
 }
 
-#linkBox {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#linkItem {
-    text-align: center;
-    max-width: 50%;
-    margin-top: 100px;
-    color: #a1a1ff;
-    font-size: 18pt;
-}
-
-#linkImg {
-    max-width: 50%; 
-    outline: auto #5e5efe
-}
-
 a {
     color: #a35efe;
 }
@@ -51,6 +33,19 @@ iframe {
     margin: 20px
 }
 
-/* a:visited {
-    color: blue;
-} */
+.linkBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linkItem {
+    text-align: center;
+    margin-top: 5%;
+    max-width: 50%;
+    font-size: 18pt;
+}
+
+.linkImg {
+    max-width: 50%; 
+    outline: auto #5e5efe
+}
