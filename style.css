@@ -15,10 +15,22 @@ p {
     margin: 20px;
 }
 
-li {
+#linkBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#linkItem {
+    text-align: center;
+    max-width: 50%;
     margin-top: 100px;
     color: #a1a1ff;
     font-size: 18pt;
+}
+
+#linkImg {
+    max-width: 50%; 
+    outline: auto #5e5efe
 }
 
 a {
