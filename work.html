@@ -18,7 +18,7 @@
         
         </p><p> During our several weeks of summer camps, our team traveled to different cities across the state to set up and facilitate robotics camps for students aged 6-12. Our first camp was in South Charleston, followed by Morgantown, Huntington, two Fairmont camps, and ending with Martinsburg. Each VEX IQ camp, for students aged 9-12, generally followed the format of teaching students about the VEX IQ platform, instructing them on how to build a robot, and introducing and playing multiple games, one of which I created, programmed, taught, and facilitated myself–the Freeze Tag game, which involved students dividing into teams of three and attempting to “freeze” the other teams’ robots by touching the bumper sensor on the back. </p>
         
-        <iframe src="https://drive.google.com/file/d/1qNoYEVQZCEM0L-n4AlkOAVVokS9UkHO7/preview" width="768" height="432" allow="autoplay fullscreen"></iframe>
+        <iframe id="video" src="https://drive.google.com/file/d/1qNoYEVQZCEM0L-n4AlkOAVVokS9UkHO7/preview" width="768" height="432" allow="autoplay fullscreen"></iframe>
         </p><p> It was wonderful helping the students with assembly and programming and watching them get excited and have fun playing the game. At the end of each camp, we helped students clean up and fully organize their robot kits before we packed everything up and moved back to our base of operations in Fairmont. 
         
         </p><p> During the week of July 10-14, I took a break from running summer camps with the Robotics Alliance to help out with the Destination Space overnight camp at Fairmont State University for high-school-aged students. My duties during the week involved having dinner with the students, facilitating evening activities–which usually involved playing games at the Rec Center–making sure all students went to sleep and woke up on time, and escorting them to breakfast and to their morning class. 
@@ -29,4 +29,13 @@
 
     <div class="homeLink"><a href="index.html">Home</a></div>
 </body>
+<script>
+        function resize() {
+            var iframe = document.getElementById('video');
+            iframe.style.height = window.innerHeight * 0.8 + 'px';
+            iframe.style.width = window.innerWidth * 0.65+ 'px';
+        }
+        resize();
+        window.addEventListener('resize', resize);
+</script>
 </html>
