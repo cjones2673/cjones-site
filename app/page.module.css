@@ -6,11 +6,11 @@
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
 
-  display: grid;
+  display: flex;
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
-  justify-items: center;
-  min-height: 100svh;
+  justify-content: center;
+  min-height: 100vh;
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
@@ -18,9 +18,11 @@
 
 .main {
   display: flex;
-  flex-direction: column;
-  gap: 32px;
-  grid-row-start: 2;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  margin: 30px;
 }
 
 .main ul {
@@ -35,7 +37,13 @@
 
 .main li {
   margin-bottom: 8px;
-  color: #fc9090;
+  color: #f2f2f2;
+}
+
+.main h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left; /* Ensures it stays aligned left */
 }
 
 
